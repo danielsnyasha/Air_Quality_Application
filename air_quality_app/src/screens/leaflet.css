@@ -1,0 +1,79 @@
+.main_container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+
+.map_container{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 7vh;
+    background-color: blue;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+}
+.div_container{
+    display: flex;
+    width: 20vw;
+    height: 200px;
+    background-color: darkolivegreen;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.Latitude{
+    display: flex;
+    width: 99%;
+    flex-direction: row;
+    align-items: center;
+}
+.Longitude{
+    display: flex;
+    width: 98%;
+    flex-direction: row;
+    align-items: center;
+}
+.lat_text{
+    display: flex;
+    width: 48%;
+    font-size: 12px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input{
+    display: flex;
+    width: 40%;
+    font-family: 'Segoe UI';
+    border-width: 2px;
+    border-radius: 5px;
+    height: 18px;
+    border-color: black;
+    color: blue;
+    background-color: rgb(253, 211, 239);
+    
+}
+.leaf_button{
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+    height: 25px;
+    border-radius: 5px;
+
+}
+.leaf_button:hover{
+    display: flex;
+    background-color: rgb(6, 38, 70);
+    cursor:cell;
+}

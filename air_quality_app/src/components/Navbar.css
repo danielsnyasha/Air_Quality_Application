@@ -1,0 +1,184 @@
+.navbar_container {
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: #73171e;
+    justify-content: flex-start;
+    align-items: center;
+    /* position: sticky; */
+    position: fixed;
+    border-bottom: 0.1px solid #0f0647;
+    top: 0px;
+    
+    bottom: 10px;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+  .navbar_text {
+    font-size: 18px;
+    margin-right: 1vw;
+    font-weight:570;
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    /* font-weight: bolder; */
+    font-style:normal;
+    cursor: pointer;
+  }
+  .navbar_text:hover{
+    font-size: 20px;
+    color: yellow;
+    transform: scale(0.7);
+    transition-duration: 0.6s;
+  }
+  .navbar__search{
+    display: flex;
+    margin-right: 40%;
+    width: 200px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .navbar__left{
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
+  .navbar__image{
+    display: flex;
+    object-fit: contain;
+    height: 100%;
+  }
+  .navbar__right{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+  
+  }
+  .navbar__input{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    margin-left: 5px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .NavbarContainer a:hover {
+    cursor: pointer;
+  }
+  
+  .image1 {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  #powerbutton:hover {
+    color: yellow;
+    /* background-color: gold; */
+    transform: scale(0.7);
+    transition-duration: 0.6s;
+  }
+  
+  #hoverlink:hover {
+    color: yellow;
+    background-color: #8a2529;
+    transform: scale(0.8);
+    transition-duration: 0.7s;
+  }
+  
+  #hoverlink1:hover {
+    color: white;
+    background-color: #8a2529;
+    transform: scale(0.8);
+    transition-duration: 0.7s;
+  }
+  
+  .footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 40%;
+  }
+  .FooterContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #11093f;
+    /* box-shadow: 2px 2px 5px 5px #8a2529; */
+  }
+  .footerText {
+    display: flex;
+    color: white;
+    font-size: 13px;
+    font-family: "Segoe UI";
+  }
+  .navbar__icons{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 28px;
+    width: 60px;
+  }
+  .navbar__icons:hover{
+    background-color: #6d191f;
+    transform:scale(1.1);
+    transition-duration: 0.9s;
+  }
+  .navbar__icons > h1{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+  
+  }
+  .navbar__icon{
+    color:rgb(248, 200, 200);
+  }
+  .navbar__icons h1:hover{
+    color: #fff;
+    font-weight: bold;
+  
+  }
+  
+  .navbar__logout{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 28px;
+    width: 60px;
+  }
+  
+  .navbar__logout:hover{
+    background-color: #6d191f;
+    transform:scale(1.1);
+    transition-duration: 0.9s;
+  }
+  .navbar__icon__logout{
+    /* background-color: #0f0647; */
+    color:whitesmoke;
+    border-radius: 3px;
+  
+  }
+  
+  .navbar__icon{
+    color:rgb(248, 200, 200);
+  }
+  .navbar__logout > h1{
+    color:yellow;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+  
+  }

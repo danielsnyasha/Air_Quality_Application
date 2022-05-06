@@ -1,0 +1,199 @@
+.App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 93vh;
+  /* background-color: blue; */
+  background-image: url('./images/can-t-brea-man-wearing-respiratory-protection-mask-against-air-pollution-dust-particles-exceed-safety-limits-because-fuming-factories.jpg');
+  background-size: cover;
+  background-position:top;
+  background-blend-mode: color;
+  background: contain;
+  margin-top: 7vh;
+  flex-direction: column;
+  align-items: center;
+}
+.Cover{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  /* //background-color: blueviolet; */
+  height: 30%;
+  padding: 5px;
+}
+.top_left{
+  display: flex;
+  background-image: url('./images/41284.jpg');
+  width: 30%;
+  align-items: center;
+  height: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 40%;
+
+}
+.top_right{
+  display: flex;
+  background-image: url('./images/flag.jpg');
+  min-width: 15%;
+  align-items: center;
+  height: 30%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+}
+.TopContainer{
+  display: flex;
+  background-color: #282c34;
+  height:50px;
+  width:25%;
+  opacity: 80%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI';
+  color: white;
+  font-size: 13px;
+  font-style:normal;
+  font-weight:normal;
+  border-radius: 10px;
+   
+
+}
+
+.Container{
+  display: flex;
+  opacity: 90%;
+  /* border-radius: 10%; */
+  /* background-image: url('./images/women_frozen.jpg'); */
+  background-size:contain;
+  background-position:top;
+  height: 500px;
+  margin-top: 1%;
+  height: 55%;
+  min-width:700px;
+  max-width: 900px;
+  background-color:whitesmoke;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  opacity: 100%;
+}
+.right-inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3%;
+  color: #61dafb;
+  
+}
+.left-inner{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+.right-button{
+  display: flex;
+  align-self: center;
+  width: 40%;
+  background-color:blue;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  height: fit-content;
+  border-radius: 5px;
+}
+.button{
+  display: flex;
+  color:white;
+  padding: 5%;
+  width: 40%;
+  height: 3%;
+  margin-left: 30%;
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  justify-content: center;
+
+}
+.button:hover{
+  display: flex;
+  background-color: maroon;
+  color: yellow;
+  font-weight: bold;
+  transition-duration: 0.3s;
+  
+}
+.left{
+  display:flex;
+  width:48%;
+  height: 95%;
+  background-color: black;
+  border-radius: 5%;
+  flex-direction: column;
+
+}
+.right{
+  display:flex;
+  width:48%;
+  height: 95%;
+  background-color: black;
+  border-radius: 5%;
+
+}
+.right_text{
+  display: flex;
+  color: white;
+  font-size: 12px;
+  height: 10%;
+}
+.right_text1{
+  display: flex;
+  color: red;
+  font-size: 14px;
+  font-family: 'Segoe UI';
+  height: 10%;
+}
+.left_text{
+  display: flex;
+  color: yellow;
+  font-size: 14px;
+}
+.right_text_aqi{
+  display: flex;
+  color: yellow;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
