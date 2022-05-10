@@ -20,11 +20,11 @@ function App() {
   }
 
 
-  //const url = `http://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${long}&key=982497db-70b3-4a08-a302-ceefd893b17c`
+  //const url = `http://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${long}&key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
-    //const url = `http://api.ambeedata.com/latest/by-lat-lng?lat=${lat}&lng=${long}=39773f7a792d4723c5a5d969165b939f9d2904d5748cb642fff6b274401c46ed`
+    //const url = `http://api.ambeedata.com/latest/by-lat-lng?lat=${lat}&lng=${long}=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
-  //const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${long}&appid=eb93f08eb82f6654c5475a460ef9230d`
+  //const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${long}&appid=xxxxxxxxxxxxxxxxxxxxxxxx`
 
   const url = `https://api.weatherbit.io/v2.0/current/airquality?lat=${lat}&lon=${long}&key=xxxxxxxxxxxxxxxxxxxxxxx`
 
