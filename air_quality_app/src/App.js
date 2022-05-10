@@ -26,7 +26,7 @@ function App() {
 
   //const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${long}&appid=eb93f08eb82f6654c5475a460ef9230d`
 
-  const url = `https://api.weatherbit.io/v2.0/current/airquality?lat=${lat}&lon=${long}&key=b7c5d1e0507348789b52b6e2be32f5ec`
+  const url = `https://api.weatherbit.io/v2.0/current/airquality?lat=${lat}&lon=${long}&key=xxxxxxxxxxxxxxxxxxxxxxx`
 
   const searchLocation = (event)=>{
     
